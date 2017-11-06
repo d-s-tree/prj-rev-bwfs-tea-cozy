@@ -1,0 +1,173 @@
+body {
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	margin: 0 auto;
+}
+
+header {
+	position: fixed;
+	height: 69px;
+	z-index: 100;
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+header .logo {
+	display: flex;
+	position: fixed;
+	align-items: center;
+	height: 69px;
+	left: 10px;
+}
+
+header .logo img {
+	height: 50px;
+	width: auto;
+}
+
+header nav {
+	display: flex;
+	position: fixed;
+	right: 10px;
+	height: 69px;
+	align-items: center;
+}
+
+header nav span {
+	text-decoration: underline;
+	padding-left: 20px;
+}
+
+main {
+	height: 2200px;
+}
+
+main .mission {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 69px;
+	background-image: url(../images/img-mission-background.jpg);
+	height: 705px;
+	width: 1200px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	z-index: 10;
+}
+
+.mission h2,
+.mission h4 {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	padding: 10px 0;
+}
+
+
+main .teas {
+	position: relative;
+	top: 140px;
+	text-align: center;
+}
+
+.tea-types-r1 {
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.tea-types-r2 {
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+	margin: 0 auto;
+}
+
+main figure {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0;
+}
+
+main figure img {
+	width: 300px;
+	height: auto;
+}
+
+main figure h4 {
+	margin-top: 10px;
+}
+
+.locations {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 200px;
+	background-image: url(../images/img-locations-background.jpg);
+	align-items: center;
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.locations h2 {
+	width: 100%;
+	z-index: 20;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 80px;
+}
+
+.locations .loc-boxes {
+	display: flex;
+	justify-content: space-between;
+	width: 980px;
+}
+
+.locations .loc-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	opacity: 1;
+	width: 300px;
+	height: 270px;
+	background-color: black;
+	z-index: 30;
+}
+
+.loc-box h3 {
+	margin: 0;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	position: relative;
+	top: 200px;
+	height: 200px;
+}
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+	position: relative;
+	top: 85px;
+}
+
+.contact-info h2,
+.contact-info h5 {
+	margin: 0px;
+}
